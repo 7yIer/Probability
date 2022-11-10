@@ -7,7 +7,7 @@ from firebase_admin import credentials
 cred = credentials.Certificate('./serviceAccountKey.json')
 
 firebase_admin.initialize_app(cred, {
-'databaseURL': 'https://finalprojectprobability-default-rtdb.firebaseio.com/'
+'databaseURL': 'https://XXX.firebaseio.com/'
 })
 
 class GlobalHistory:
